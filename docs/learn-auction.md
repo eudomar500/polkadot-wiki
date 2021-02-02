@@ -71,9 +71,9 @@ have ended before they even bid.
 
 ## Polkadot Implementation
 
-Polkadot will use a _random beacon_ based on the VRF that's used also in other places of the
-protocol. The VRF will provide the base of the randomness, which will retroactively determine the
-end-time of the auction.
+Polkadot will use a _random beacon_ based on the [VRF](https://wiki.polkadot.network/docs/en/learn-randomness)
+that's used also in other places of the protocol. The VRF will provide the base of the randomness, which will 
+retroactively determine the end-time of the auction.
 
 The slot durations are capped to 2 years and divided into 6-month periods. Parachains may lease a
 slot for any contiguous range of the slot duration. Parachains may lease more than one slot over
